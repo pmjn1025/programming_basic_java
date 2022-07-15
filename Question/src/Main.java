@@ -100,11 +100,15 @@ public class Main {
 
         Q23 q23 = new Q23();
         long num_q23 = 1234567;
-        q23.solutionQ23(num_q23);
-        System.out.println(Arrays.toString(q23.solutionQ23(num_q23)));
+        //q23.solutionQ23(num_q23);
+        //System.out.println(Arrays.toString(q23.solutionQ23(num_q23)));
 
+        //=================================================================
 
-
+        Q27 q27 = new Q27();
+        int num_q27 = 626331;
+        //q27.solutionQ27(num_q27);
+        System.out.println(q27.solutionQ27(num_q27));
 
 
 
