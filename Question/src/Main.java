@@ -9,7 +9,22 @@ public class Main {
         System.out.println(q3.solutionQ3("abcde"));
 
 
-//=================================================================
+        //=================================================================
+
+        //Q4
+        Q4 q4 = new Q4();
+
+        int a = 3;
+
+        int b = 5;
+
+        q4.solutionQ4(a,b);
+
+
+
+
+
+        //=================================================================
 
         // 숫자 배열
         int[] q7_int_list = {-1, -2, 4};
@@ -67,14 +82,30 @@ public class Main {
 
         Q15 q15 = new Q15();
 
-        int[] num_q15_1 = {1,2,3,4};
-        int[] num_q15_2 = {-3,-1,0,2};
+        int[] num_q15_1 = {1, 2, 3, 4};
+        int[] num_q15_2 = {-3, -1, 0, 2};
         // 배열 출력 확인.
         //System.out.println(Arrays.toString(num_q15_1) +  Arrays.toString(num_q15_2));
 
         //System.out.println(q15.solutionQ15(num_q15_1,num_q15_2));
 
         //=================================================================
+
+        Q19 q19 = new Q19();
+        int num_q19 = 3;
+
+        //System.out.println(q19.solutionQ19(num_q19));
+
+        //=================================================================
+
+        Q23 q23 = new Q23();
+        long num_q23 = 1234567;
+        q23.solutionQ23(num_q23);
+        System.out.println(Arrays.toString(q23.solutionQ23(num_q23)));
+
+
+
+
 
 
     }

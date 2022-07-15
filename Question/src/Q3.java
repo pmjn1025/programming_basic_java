@@ -18,6 +18,7 @@ public class Q3 {
         String str = s;
 
         // 문자열 길이 입력
+        //abcde
         int word_length = str.length();
 
         // 문자열 출력 확인
@@ -32,8 +33,9 @@ public class Q3 {
         } else if (word_length <= 100) {
             //문자갯수가 홀수 이면
             if (word_length % 2 != 0) {
-
+                //abcde
                 System.out.println(str.charAt(word_length / 2));
+
                 char examp = str.charAt(word_length / 2);
                 char[] arr = {examp};
                 str = new String(arr);
