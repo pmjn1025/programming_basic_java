@@ -1,8 +1,6 @@
-import java.util.Scanner;
+public class Q3 {
 
-public class Q2 {
-
-    public String solutionQ2(String s) {
+    public String solutionQ3(String s) {
         //        문제 설명
         // 단어 s의 가운데 글자를 반환하는 함수, solution을 만들어 보세요.
         // 단어의 길이가 짝수라면 가운데 두글자를 반환하면 됩니다.
@@ -23,7 +21,9 @@ public class Q2 {
         int word_length = str.length();
 
         // 문자열 출력 확인
-        System.out.println("문자열 길이 : " + word_length);
+        //System.out.println("문자열 길이 : " + word_length);
+
+
         // 문자열 길이에 따른 if문
         if (word_length == 0) {
 
@@ -53,8 +53,8 @@ public class Q2 {
                 //char examp1 = str.charAt((word_length/2)+1);
                 char examp1 = str.charAt((word_length / 2));
                 // 각각 출력 잘되는 지 확인
-                System.out.println(examp);
-                System.out.println(examp1);
+                //System.out.println(examp);
+                //System.out.println(examp1);
 
                 // char 문자 타입을 배열로 만듬
                 char[] arr = {examp, examp1};
