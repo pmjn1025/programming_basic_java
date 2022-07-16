@@ -1,6 +1,8 @@
 public class Q7 {
 
     public int solutionQ7(int[] absolutes, boolean[] signs) {
+        // absilute ={-1,-2,4}
+        //sign =[false,false,ture]
 
         //false일때 왜??? 나는  += 해야 정답이 될까??
         // 일단 정답은 -=로 해서 맞췄음???

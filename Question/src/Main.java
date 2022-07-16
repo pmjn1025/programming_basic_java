@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Main {
 
@@ -5,7 +6,7 @@ public class Main {
 
         //Q3
         Q3 q3 = new Q3();
-        System.out.println(q3.solutionQ3("abcde"));
+        //System.out.println(q3.solutionQ3("abcde"));
 
 
         //=================================================================
@@ -25,8 +26,7 @@ public class Main {
 
         //=================================================================
 
-        // 숫자 배열
-        int[] q7_int_list = {-1, -2, 4};
+
 
         // 숫자 배열 확인 출력
 //        for(int a : q7_int_list){
@@ -35,6 +35,8 @@ public class Main {
 //
 //        }
 
+        // 숫자 배열
+        int[] q7_int_list = {-1, -2, 4};
 
         // 불린 배열 생성 하고 숫자 길이만큼 불린배열 크기 선언
         boolean[] signs = new boolean[q7_int_list.length];
@@ -136,13 +138,8 @@ public class Main {
 
         Q17 q17 = new Q17();
         String str_q17 ="123a";
-        q17.solutionQ17(str_q17);
-        System.out.println(q17.solutionQ17(str_q17));
-
-
-
-
-
+        //q17.solutionQ17(str_q17);
+        //System.out.println(q17.solutionQ17(str_q17));
 
         //=================================================================
 
@@ -152,11 +149,36 @@ public class Main {
         //System.out.println(q19.solutionQ19(num_q19));
 
         //=================================================================
+        // 나중에 풀기
+        Q20 q20 = new Q20();
+        String[] participant = {"leo", "kiki", "eden"};
+        String[] completion = {"eden", "kiki"};
+        //q20.solutionQ20(participant,completion);
+
+        //=================================================================
+
+        Q21 q21 = new Q21();
+        String str_q21 = "try hello world";
+        //q21.solutionQ21(str_q21);
+
+        //=================================================================
 
         Q23 q23 = new Q23();
         long num_q23 = 1234567;
         //q23.solutionQ23(num_q23);
         //System.out.println(Arrays.toString(q23.solutionQ23(num_q23)));
+
+        //=================================================================
+
+        Q24 q24 = new Q24();
+
+        long num_q24 = 118372;
+
+        q24.solutionQ24(num_q24);
+
+
+
+
 
         //=================================================================
 
