@@ -1,4 +1,3 @@
-import java.util.Arrays; // ???
 
 public class Main {
 
@@ -67,6 +66,25 @@ public class Main {
 
         //System.out.println(q7.solutionQ7(q7_int_list,signs));
 
+        //=================================================================
+
+        Q8 q8 = new Q8();
+
+        int[] exam_list = {1,2,3,4};
+
+        //q8.solutionQ8(exam_list);
+
+        //=================================================================
+
+        Q9 q9 = new Q9();
+
+        String str_qq = "027778888";
+
+        //q9.solutionQ9(str_qq);
+
+        //System.out.println(q9.solutionQ9(str_qq));
+
+
 
         //=================================================================
 
@@ -79,6 +97,24 @@ public class Main {
         //System.out.println(Arrays.toString(q11.solutionQ11(-4, 2)));
 
         //=================================================================
+        Q12 q12 = new Q12();
+        int price_q12 = 3;
+        int money_q12 = 30;
+        int count_q12 = 4;
+
+
+        //q12.solutionQ12(price_q12,money_q12,count_q12);
+        //System.out.println(q12.solutionQ12(price_q12,money_q12,count_q12));
+
+        //=================================================================
+
+        Q13 q13 = new Q13(); // 나중에 풀기
+        int month_q13 = 5;
+        int day_q13 = 24;
+//        q13.solutionQ13(month_q13,day_q13);
+//        System.out.println(q13.solutionQ13(month_q13,day_q13));
+
+        //=================================================================
 
         Q15 q15 = new Q15();
 
@@ -88,6 +124,25 @@ public class Main {
         //System.out.println(Arrays.toString(num_q15_1) +  Arrays.toString(num_q15_2));
 
         //System.out.println(q15.solutionQ15(num_q15_1,num_q15_2));
+
+        //=================================================================
+
+        Q16 q16 = new Q16();
+        String str_q16 ="Pyy";
+        //q16.solutionQ16(str_q16);
+        //System.out.println(q16.solutionQ16(str_q16));
+
+        //=================================================================
+
+        Q17 q17 = new Q17();
+        String str_q17 ="123a";
+        q17.solutionQ17(str_q17);
+        System.out.println(q17.solutionQ17(str_q17));
+
+
+
+
+
 
         //=================================================================
 
@@ -108,7 +163,7 @@ public class Main {
         Q27 q27 = new Q27();
         int num_q27 = 626331;
         //q27.solutionQ27(num_q27);
-        System.out.println(q27.solutionQ27(num_q27));
+        //System.out.println(q27.solutionQ27(num_q27));
 
 
 

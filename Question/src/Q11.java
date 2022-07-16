@@ -4,13 +4,17 @@ public class Q11 {
 
     public long[] solutionQ11(int x, int n) {
         long[] answer = new long[n];
-        int sum = 0;
+
+        //13,14테스트케이스 오류
+        // 오류나서 오류의 문제점을 찾아봄 for문에 int를 long으로 변환해보라고 함.
+
+        long sum = 0;
 
         for(int i = 0; i<n;i++){
 
             sum = sum + x;
-
-            answer[i] += (long) sum;
+            // 형변환.
+            answer[i] += sum;
             //System.out.println(answer[i]);
 
 
