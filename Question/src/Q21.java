@@ -12,6 +12,7 @@ public class Q21 {
         System.out.println(s_arrs.length);
         System.out.println(Arrays.toString(s_arrs));
 
+
         int idx =0;
         for (int i = 0; i<s_arrs.length;i++){
             if(s_arrs[i].equals(" ")){
